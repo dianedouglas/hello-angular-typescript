@@ -118,7 +118,7 @@ export class AppComponent {
 When Angular calls the bootstrap function in boot.ts, it reads the AppComponent metadata, which tells it to find an html element named my-app (follow the css selector named in the 'AppComponent' property 'selector'), and loads our application between those tags.
 
 * load js libs you need first
-* tell System to configure itself and then tell it to import the boot file.  
+* tell System to configure itself and then tell it to import the boot file.
 * include the tag named in your component 'selector'. In this case, it is <my-app>.
 
 9. `npm start` in the terminal from the root of your project directory.
