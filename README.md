@@ -31,6 +31,7 @@
 3. Might not need this step. If you don't already have a server installed: `npm install -g http-server` To create a server at localhost:8080 use the command `http-server`
 4. Make a tsconfig.json file in the project root for configuring the typescript compiler
 
+```
 {
   "compilerOptions": {
     "target": "ES5",
@@ -46,6 +47,7 @@
     "node_modules"
   ]
 }
+```
 
 5. Add an `app` folder
 6. Make app/boot.ts
