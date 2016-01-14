@@ -7,4 +7,8 @@ import {Component, View} from 'angular2/core';
     templateUrl: './templates/component.root.view.html'
 })
 export class RootComponent {
+  myName: string;
+  constructor() {
+    this.myName = "Lemmy";
+  }
 }
