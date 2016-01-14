@@ -1,6 +1,7 @@
 ### Creating a new Angular 2 app with typescript.
 1. package.json
 
+```
 {
   "name": "angular2-quickstart",
   "version": "1.0.0",
@@ -26,6 +27,7 @@
     "typescript": "^1.7.3"
   }
 }
+```
 
 2. `npm install`
 3. Might not need this step. If you don't already have a server installed: `npm install -g http-server` To create a server at localhost:8080 use the command `http-server`
