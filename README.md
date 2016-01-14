@@ -54,12 +54,12 @@
 5. Add an `app` folder
 6. Make app/boot.ts
 
-
+```
 import {bootstrap}    from 'angular2/platform/browser'
 import {AppComponent} from './app.component'
 
 bootstrap(AppComponent);
-
+```
 
 7. Make root component (AppComponent is being imported above).
 
