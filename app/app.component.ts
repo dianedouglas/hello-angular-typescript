@@ -4,7 +4,7 @@ import {Component, View} from 'angular2/core';
     selector: 'my-app'
 })
 @View({
-    templateUrl: './templates/AppComponentView.html'
+    templateUrl: './templates/RootComponentView.html'
 })
-export class AppComponent {
+export class RootComponent {
 }
